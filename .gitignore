@@ -41,7 +41,6 @@ src/Web/WebMVC/wwwroot/js/site*
 # NUNIT
 *.VisualState.xml
 TestResult.xml
-
 tests-results/
 
 # Build Results of an ATL Project
@@ -277,3 +276,5 @@ pub/
 src/**/app.yaml
 src/**/inf.yaml
 
+# Ignore .DS_Store for mac
+.DS_Store
